@@ -28,7 +28,7 @@ void loop() {
   delayMicroseconds(10);
   digitalWrite(trig, LOW);
  
-  duration = pulseIn(echo, HIGH); //listen to response from echoing ping and give save an long to duration(ms)
+  duration = pulseIn(echo, HIGH); //listen to response from echoing ping and saves in long format to duration(ms)
   Serial.println(duration); //print the duration
   delay(100); // wait 100ms
   
